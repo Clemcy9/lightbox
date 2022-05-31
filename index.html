@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h4>Trying to implement Ligthbox from Modal + carousel </h4>
+        
+
+        <button id="myBtn">open modal</button>
+        <div class="modal" id="myModal">
+            <div class="modal-content">
+                <span class="close"> &times;</span>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="./images/image-product-1.jpg" alt="product1">
+                        <div class="text">Image 1</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./images/image-product-2.jpg" alt="product2">
+                        <div class="text">Image 2</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="./images/image-product-3.jpg" alt="product3">
+                        <div class="text">Image 3</div>
+                    </div>
+                
+                    <a onclick="plusSlides(-1)" class="prev">&#10094</a>
+                    <a onclick="plusSlides(1)" class="next">&#10095</a>
+                </div>
+                
+                <br>
+                <div style="text-align: center;">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+                <p>You are who you are yesterday, today and forever more</p>
+                <p>what you say is what you do, you never fail, you never change</p>
+                <p>You are faithful to the end, faithful God i worship you</p>
+            </div>
+        </div>
+
+        <p>Holy one, long preserved, for our work, here on earth</p>
+        <p><i>Ancient one, ever true, changing me,<br /> and changing you we have come,<br /> with open hearts,<br />so
+                let the Ancient one impact</i></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
